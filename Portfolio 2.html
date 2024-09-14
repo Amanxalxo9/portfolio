@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Exo' rel='stylesheet'>
+	<link rel="stylesheet" href="Portfolio-2.css">
+	<title>Portfolio Aman Xalxo</title>
+</head>
+<body>
+	
+	<div class="nav" id="myHeader">
+		<ul>
+			<li><a href="#section5">Contact</a></li>
+			<li><a href="#section4">Experience</a></li>
+			<li><a href="#section3">Skills</a></li>
+			<li><a href="#section2">About</a></li>
+			<li><a class="active" href="#section1">Home</a></li>
+		</ul>
+	</div>
+	
+
+	<div class="colum" id="#section1">
+		
+		<div class="name">
+			<h3 class="hii">Hii i'm</h3>
+			<h1 class="aman">Aman Khalkho</h1>
+				<div class="animated-text">
+					i'm a <span></span>
+				</div>
+			<div class="social">
+	            <a href="#" class="fa fa-facebook-square"></a>
+	            <a href="#" class="fa fa-instagram"></a>
+	            <a href="#" class="fa fa-twitter-square"></a>
+	            <a href="#" class="fa fa-linkedin-square"></a>
+            </div>
+            	<br><br><br><br>
+			<a href="Aman-CV.pdf" class="btn">DOWNLOAD CV</a>
+		</div>
+
+		<div class="name">
+			<img src="D-marketing.png">
+		</div>
+	</div>
+
+
+    <div class="section" id="section2">
+		<div class="left">
+			<h1>About Me</h1>
+			<img src="Aman.jpg">
+		</div>
+
+		<div class="right">
+			<h3>Digital Marketer</h3>
+			<p class="paragraph">Hello my name is Aman Khalkho and i am a passionate Digital Marketer and i Seeking a full time online or directing specialist position where my prior experience and educational background 
+can be used to improve productivity and generate revenue for the organization</p>
+		</div>
+    </div>
+
+    <div class="skill" id="section3">
+    	<h1>Skills</h1>
+    		<div class="card">
+	    		
+	    		<img class="icon" src="SEO.png">
+	    		<img class="icon" src="Analytics.png">
+	    		<img class="icon" src="Search-Console.png">
+	    		<img class="icon" src="Trends.png">
+    				<div class="borderplay">
+    					<img src="">
+    				</div>
+    		</div>
+    </div>
+
+    <div class="exp" id="section4">
+    	<h1>Assingments</h1>
+    	<div class="card2">
+    		<div class="asm">
+    			<h3>Assingment on Google Analytics</h3>
+	    		<p>I have Connected my Website to Google Analytics and Tracked Analytical Report</p>
+	    		<img src="Analytics-setup.png" alt="Analytical report">
+    		</div>
+
+    		<div class="asm">
+    			<h3>Assingment on Google Search Console</h3>
+	    		<p>Added my Website to Google Search Console and verified and Endexed my web Pages</p>
+	    		<img src="Search-Console-setup.png" alt="Search Console">
+    		</div>
+
+    		<div class="asm">
+    			<h3>Assingment on Wordpress</h3>
+	    		<p>I have installed Wordpress </p>
+	    		<img src="wordpress.png" alt="wordpress dashbord">
+    		</div>
+
+    		<div class="asm">
+    			<h3>Assingment on Email Marketing by Mailchimp</h3>
+	    		<p>I Created Mailchimp account with details and i created Subscribers popup Form </p>
+	    		<img src="Email-marketing.png" alt="Search Console">
+    		</div>
+
+    		<ul>
+    			<li>I Generated traffic for my <b>YouTube Channel</b></li>
+    			<li>I Indexed My Web Links on <b>Google Search Console</b></li>
+    			<li>I Connected My Website To <b>Google Analytics</b></li>
+    		</ul>
+    		<h3>Marketing Campaign</h3>
+    		<ul>
+    			<li>Generated Leads by Email Markeling By Using <b>Mailchimp</b></li>
+    		</ul>
+    			<h3>Assingments</h3>
+    			<ul>
+    				<li>Email Marketing</li>
+    				<li>YouTube Marketing</li>
+    				<li>Wordpress Website Setup</li>
+    				<li></li>
+    				<li></li>
+    			</ul>
+    			<div class="nv">
+    				
+    			</div>
+    	</div>
+    </div>
+    
+    <div class="client">
+    	<h1>Clients</h1>
+    	<h3>I Worked for these companies to Commercial Photoshoot</h3>
+	    	<div class="img-slider">
+	    		<div class="img-items">
+	    			<img src="laxmi frame.jpg">
+	    		</div>
+
+	    		<div class="img-items">
+	    			<img src="naveen frame.jpg">
+	    		</div>
+
+	    		<div class="img-items">
+	    			<img src="dada frame.jpg">
+	    		</div>
+
+	    		<div class="img-items">
+	    			<img src="shivshakti frame.jpg">
+	    		</div>
+	    	</div>
+    </div>
+    <div class="contact" id="section5">
+    	<div class="one">
+    		<h1>Contact Me</h1>
+
+    		 <div class="container">
+    		 	<form action="action_page.php">
+    		 		
+    		 		<label for="fname">First Name</label>
+    		 		<input type="text" id="fname" name="fristname" placeholder="Your name..">
+
+    		 		<label for="lname">Last Name</label>
+    		 		<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    		 		<label for="fnumber">Phone Number</label>
+    		 		<input type="text" name="fnumber" placeholder="Your Phone Number..">
+
+    		 		<label for="message">Message</label>
+    		 		<input type="text" name="message" placeholder="Enter Your Message">
+
+    		 		<input type="submit" value="Submit">
+    		 	</form>
+    		 </div>
+    	</div>
+
+    	<div class="two"></div>
+    </div>
+    
+    <div class="footer">
+    	<div class="fsocial">
+    		<a href="#"><i class="fa fa-facebook-square"></i></a>
+    		<a href="#"><i class="fa fa-instagram"></i></a>
+    		<a href="#"><i class="fa fa-twitter-square"></i></a>
+    		<a href="#"><i class="fa fa-linkedin-square"></i></a>
+    	</div>
+    	<p>Copuright &#169 Aman Khalkho 2024 All Rights Reversed</p>
+    	
+    </div>
+</body>
+</html>
